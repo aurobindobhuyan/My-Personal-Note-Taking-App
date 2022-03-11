@@ -1,0 +1,111 @@
+html {
+     min-height: 100%;
+}
+
+.mainDiv {
+     margin: auto;
+     margin-top: 4%;
+     width: 35%;
+     padding: 10px;
+     height: max-content;
+     border: outset;
+     border-width: 5px;
+     box-shadow: 6px 7px rgb(98, 112, 235);
+     animation: mymove 4s infinite;
+     background-color: ghostwhite;
+}
+
+@keyframes mymove {
+     50% {
+          box-shadow: 10px 20px 30px blue;
+     }
+}
+
+label {
+     display: inline-block;
+     width: 15%;
+}
+
+progress {
+     width: 60%
+}
+
+.input {
+     width: 55%;
+     height: 30px;
+     border-radius: 7px;
+     border-width: 2px;
+     display: inline-block;
+     margin-right: 7px;
+     padding-left: 10px;
+}
+
+.button {
+     margin: auto;
+     background-color: rgb(9, 74, 252);
+     color: white;
+     border: none;
+     width: -webkit-fill-available;
+     height: 40px;
+     border-radius: 7px;
+}
+
+.button:hover {
+     background-color: rgb(82, 247, 6);
+     color: black
+}
+
+input:hover {
+     background-color: rgb(191, 197, 253);
+}
+
+.passwordInput:focus, .input:focus {
+     border: 2px solid #dadada;
+     border-radius: 7px;
+     outline: none;
+     box-shadow: 0 0 30px darkgreen;
+}
+
+.error {
+     width: 55%;
+     height: 30px;
+     border-radius: 7px;
+     border-width: 2px;
+     display: inline-block;
+     margin-right: 7px;
+     padding-left: 10px;
+}
+
+.passwordError {
+     min-width: 100%;
+     height: 30px;
+     border-radius: 7px;
+     padding-left: 10px;
+}
+
+.passwordError:focus, .error:focus {
+     border: 2px solid #dadada;
+     border-radius: 7px;
+     outline: none;
+     box-shadow: 0 0 30px red;
+}
+
+.passwordInput {
+     min-width: 100%;
+     height: 30px;
+     border-radius: 7px;
+     padding-left: 10px;
+}
+
+.parentDiv {
+     width: 55%;
+     height: 34px;
+     display: flex;
+     margin-right: 22px;
+}
+
+.showHideIcon {
+     position: relative;
+     right: 30px;
+     top: 5px;
+}
