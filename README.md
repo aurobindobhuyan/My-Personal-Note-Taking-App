@@ -1,6 +1,12 @@
 
 # My Personal Note Taking App
 
+## Demo
+![My-Notes-App](https://user-images.githubusercontent.com/100915096/159106606-f5d07c3b-56fc-4e5d-9fd8-529f582a32db.png)
+![My-Notes-App](https://user-images.githubusercontent.com/100915096/159106608-76d9dd9e-35a3-426b-9a9f-b9c314855983.png)
+![My-Notes-App](https://user-images.githubusercontent.com/100915096/159106610-dffebc1a-bc72-40e5-877d-81e104629083.png)
+
+
 ## Tech Stack
 
 - 💻 JavaScript | ES6
