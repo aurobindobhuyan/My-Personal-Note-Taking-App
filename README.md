@@ -23,5 +23,5 @@
 - User can create a new account with us.
 - Then he needs to login to the application by using the proper credentials.
 - User can see his personal information like
-    1. His Account details.
-    2. He can use the personal notes features.
+    - His Account details.
+    - He can use the personal notes features.
